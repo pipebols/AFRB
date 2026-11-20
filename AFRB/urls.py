@@ -21,4 +21,7 @@ from Rodriguez import views
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', views.Inicio, name= 'inicio'),
+    path('inicio', views.Inicio, name= 'inicio'),
+    path('registro', views.Registro, name= 'registro'),
+
 ]
