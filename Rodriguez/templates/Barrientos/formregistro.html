@@ -26,15 +26,23 @@
         </nav>
     </header>
 
-<form method="POST">
+<form method="POST"><br>
     <label>Nombre:</label>
-    <input type="text" name="nombre" placeholder="Escribe tu nombre..." required>
+    <input type="text" name="nombre" placeholder="Escribe tu nombre..." required><br>
     <label>Apellido Paterno</label>
-    <input type="text" name="apellidop" placeholder="Escribe tu apellido materno..." required>
+    <input type="text" name="apellidop" placeholder="Escribe tu apellido materno..." required><br>
     <label>Apellido Materno:</label>
-    <input type="text" name="apellidom" placeholder="Escribe tu apellido materno...">
+    <input type="text" name="apellidom" placeholder="Escribe tu apellido materno..."><br>
     <label>Edad:</label>
-    <input type="number" name="edad" min="14" max="25" placeholder="Escribe tu edad" required>
+    <input type="number" name="edad" min="14" max="25" placeholder="Escribe tu edad" required><br>
+    <label>Genero</label>
+    <input type="radio" name="genero" value="Femenino">
+    <input type="radio" name="genero" value="Masculino">
+    <label>Intereses</label><br>
+    <input type="checkbox" name="intereses" value="Futbol" >
+    <input type="checkbox" name="intereses" value="Musica" >
+    <input type="checkbox" name="intereses" value="Videojuegos" >
+    <input type="checkbox" name="intereses" value="Salir a hacer batallas de aura 67" >
     <button type="submit">Guardar</button>
 
 </form>

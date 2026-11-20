@@ -66,6 +66,7 @@ footer {
 
 form {
     background-color: #ffffff;
+    width: 350px;
     margin: 30px auto;
     padding: 20px;
     border-radius: 10px;
@@ -91,4 +92,12 @@ button {
 label {
     background-color: #894019;
     color: #ffffff;
+}
+
+input [type="Checkbox"]
+input [type="radio"] {
+    accent-color: red;
+    width: 18px;
+    height: 18px;
+    cursor: pointer;
 }
